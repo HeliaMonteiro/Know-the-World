@@ -1,0 +1,49 @@
+<h1>Know the World</h1>
+
+<% if logged_in? %>
+  <h2>Hello <%= current_user['first_name'] %></h2>
+  
+  <section class="controls">
+    <form action="/sessions" method="POST">
+      <input type="hidden" name="_method" value="delete">
+      <button>Logout</button>
+    </form>
+  </section>
+
+
+<a href="travels/new">Add travel</a>
+<a href="users/new">Add user</a>
+
+<section class="travels">
+  <% travels.each do |travel| %>
+    <section class="travel">
+      <header>
+        <h2><%= travel['city'] %></h2>
+        <section class="travel">
+          <p>Country: <%= travel['country'] %></p>
+        </section>
+      
+        <section class="controls">
+          <a href="/travels/<%= travel['id'] %>/edit">Edit</a>
+
+          <form action="/travels/<%= travel['id'] %>" method="POST">
+            <input type="hidden" name="_method" value="delete">
+            <button>Delete</button>
+          </form>
+        </section>
+      </header>
+
+      <section class="travel">
+        <p>Title: <%= travel['title'] %></p>
+      </section>
+
+      <img src="<%= travel['image_url'] %>" alt="">
+          
+     </section>
+     
+  <% end %>  
+</section>
+<% else %>
+  <a href="/users/new">Sign up</a>
+  <a href="/sessions/new">Login</a>
+<% end %>

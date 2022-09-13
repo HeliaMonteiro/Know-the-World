@@ -1,0 +1,19 @@
+<h1>Edit Travel</h1>
+<form action="/travels/<%= travel['id'] %>" method="POST">
+  <input type="hidden" name="_method" value="put">
+
+  <label for="">City: </label>
+  <input type="text" name="city" value="<%= travel['city'] %>">
+
+
+  <label for="">Country: </label>
+  <input type="text" name="country" value="<%= travel['country'] %>">
+
+  <label for="">Title: </label>
+  <input type="text" name="title" value="<%= travel['title'] %>">
+
+  <label for="">Image URL: </label>
+  <input type="text" name="image_url" value="<%= travel['image_url'] %>">
+
+  <button>Update Travel</button>
+</form>
