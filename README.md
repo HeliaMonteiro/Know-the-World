@@ -6,7 +6,7 @@ Travel, explore and share!
 
 💻 [Click here](https://stark-tor-02004.herokuapp.com/) to see my project
 
-[![20220914-151706.jpg](https://i.postimg.cc/qqP14MmT/20220914-151706.jpg)](https://postimg.cc/7JN3ND8s)
+[![20220915-081759.jpg](https://i.postimg.cc/pX1c5DPX/20220915-081759.jpg)](https://postimg.cc/KRBDd3Kd)
 
 :bookmark_tabs: About
 
@@ -20,11 +20,11 @@ Travel, explore and share!
     I've used Trello to planning my tasks by priority and separate it by to do, doing and done to organise the creative process and achieve the result I was looking for.
     
     
-:nerd_face: Cool tech  	:dart:
+:nerd_face:  Cool tech  :dart:
 
     I'm using Sinatra, Ruby, HTML, DB and CSS.
 
-:hammer_and_wrench: Bugs to fix :firecracker:
+:hammer_and_wrench:  Bugs to fix  :firecracker:
 
 It's possible to add a travel without put any information. Sometimes you have to click twice in a button to get action. It isn't responsive.
 
