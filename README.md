@@ -5,6 +5,9 @@ Know the World page is a space for you share your travels experiences and get so
 Travel, explore and share!
 
 💻 [Click here](https://stark-tor-02004.herokuapp.com/) to see my project
+
+[![20220914-112438.jpg](https://i.postimg.cc/zfJW98PL/20220914-112438.jpg)](https://postimg.cc/cvbr3yWZ)
+
 📄 About
 
     This page is a space to share travel experience and get inspiration too.
