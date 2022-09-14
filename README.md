@@ -8,22 +8,31 @@ Travel, explore and share!
 
 [![20220914-151706.jpg](https://i.postimg.cc/qqP14MmT/20220914-151706.jpg)](https://postimg.cc/7JN3ND8s)
 
-📄 About
+:bookmark_tabs: About
 
     This page is a space to share travel experience and get inspiration too.
+    You can share the city name, country, image, give a title to describle your trip and write a short descruption about your experience.
 
-✏️ Planning & Problem Solving
+:woman_technologist: Planning & Problem Solving
+
 
     I did start taking notes what I need to do and breaking it down into small steps.
-    After that I did planning my tasks to achieve the result that I was looking for.
-
-alt text
-🚀 Cool tech
+    I've used Trello to planning my tasks by priority and separate it by to do, doing and done to organise the creative process and achieve the result I was looking for.
+    
+    
+:nerd_face: Cool tech  	:dart:
 
     I'm using Sinatra, Ruby, HTML, DB and CSS.
 
-😱 Bugs to fix 💩
+:hammer_and_wrench: Bugs to fix :firecracker:
 
-😭 Lessons learnt
+It's possible to add a travel without put any information. Sometimes you have to click twice in a button to get action. It isn't responsive.
 
-✅ Future features
+:mending_heart: Lessons learnt
+
+Believe in the power of planning and do not limit yorseelf. The gold key is; planing, be patience and make it step by step. 
+
+:star_struck: Future features
+
+Validate the email field, make it responsive, upgrate de button style.
+
