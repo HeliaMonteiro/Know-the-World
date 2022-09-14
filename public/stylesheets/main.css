@@ -1,0 +1,79 @@
+body {
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: #FFF5E1;
+}
+
+.my_trip {
+  background-color: black;
+  padding: 10px;
+  padding: 8px;
+  float: left;
+  width: 33.33%;
+  display: none;
+}
+
+.title-container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.title-container h1 {
+  color: #DB6400;
+  font-family: 'Splash', cursive;
+  font-size: 5rem;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 3px solid #0E918C;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+a:hover, a:active {
+  background-color: #0E918C;
+  color: white;
+}
+
+.signup-button {
+  margin: 10px;
+
+  text-decoration: none;
+}
+
+.signin-button {
+  margin: 10px;
+}
+
+.title-and-image-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.sub-title{
+  font-family: 'Indie Flower', cursive;
+  color:  #0E918C;
+  font-size: 2.5rem;
+
+}
+.main-text-container {
+  max-width: 100%;
+  padding-right: 2px;
+ font-family: 'Sen', sans-serif;
+ font-size: 1.5rem;
+ text-align: justify;
+ padding-right: 25px;
+ color: #3C4245 ;
+}
+
+.front-image {
+  padding-left: 2px;
+  max-width: 100%;
+}
