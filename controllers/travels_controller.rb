@@ -15,10 +15,11 @@ end
 post '/travels' do
   city = params['city']
   country = params['country']
-  title = params['title']
   image_url = params['image_url']
+  title = params['title']
+  description = params['description']
  
-  create_travel(city, country, title, image_url)
+  create_travel(city, country, image_url, title, description)
 
   redirect '/'
 end
@@ -36,10 +37,11 @@ put '/travels/:id' do
   id = params['id']
   city = params['city']
   country = params['country']
-  title = params['title']
   image_url = params['image_url']
+  title = params['title']
+  description = params['description']
 
-  update_travel(id, city, country, title, image_url)
+  update_travel(id, city, country, image_url, title, description)
 
   redirect '/'
 end

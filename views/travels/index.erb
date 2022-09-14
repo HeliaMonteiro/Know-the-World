@@ -29,7 +29,7 @@
 
 <% if logged_in? %>
   <div class="title-container">
-    <h1>Know the World</h1>
+    <img class="logo" src="https://i.postimg.cc/xCnVMmzc/20220914-194832-0000-removebg-preview.png" alt="">
 
     <div class="top-button-container-inside">
       <a class="add-travel-button" href="travels/new">Add travel</a>
@@ -39,15 +39,10 @@
       </form>
 
     </div>
-  </div>
-    <h2 class="header-hello">Hello, <%= current_user['first_name'] %></h2>
-  
-     
 
-  <%# <div class="logged_btn">
-    <a href="travels/new">Add travel</a>
-    <a href="users/new">Add user</a>
-  </div> %>
+  </div>
+  <h2 class="header-hello">Hello, <%= current_user['first_name'] %></h2>
+       
   <div class="travel-list">
     <% travels.each do |travel| %>
       <div class="travel-item">
@@ -59,7 +54,10 @@
         </header>
         <img class="travel-image" src="<%= travel['image_url'] %>" alt="">
         <section class="travel">
-          <p><%= travel['title'] %></p>
+          <h1 class="travel-title"><%= travel['title'] %></h1>
+        </section>
+        <section class="travel">
+          <p><%= travel['description'] %></p>
         </section>
 
         <div class="control-container">

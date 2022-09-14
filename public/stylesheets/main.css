@@ -12,10 +12,16 @@ body {
   align-items: center;
 
 }
+
+.form-index-container {
+  display: flex;
+}
+
 .logo {
   max-width: 100%;
   display: flex;
 }
+
 
 .top-button-container-inside {
   display: flex;
@@ -124,10 +130,11 @@ button:hover {
   background-color: white;
   padding: 10px;
   float: left;
-  
 
-  
+}
 
+.travel-title {
+font-weight: bold;
 }
 
 .control-container {
