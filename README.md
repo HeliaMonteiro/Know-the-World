@@ -13,7 +13,7 @@ Travel, explore and share!
 ✏️ Planning & Problem Solving
 
     I did start taking notes what I need to do and breaking it down into small steps.
-    After that I did planning my tasks to achieve the result that I was looking for.
+    Then did draw how I would like the page layout ad after that I've planning my task to achieve the result that I was looking for.
 
 alt text
 🚀 Cool tech
