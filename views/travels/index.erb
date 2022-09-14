@@ -1,7 +1,7 @@
 <% if !logged_in? %>
 <div>
   <div class="title-container">
-    <h1>Know the World</h1>
+    <img class="logo" src="https://i.postimg.cc/xCnVMmzc/20220914-194832-0000-removebg-preview.png" alt="">
     
     <div class="top-button-container">
         <a class="signup-button" href="/users/new">Sign up</a>
@@ -54,12 +54,12 @@
         <header>
           <h2><%= travel['city'] %></h2>
           <section class="travel">
-            <p>Country: <%= travel['country'] %></p>
+            <p><%= travel['country'] %></p>
           </section>
         </header>
         <img class="travel-image" src="<%= travel['image_url'] %>" alt="">
         <section class="travel">
-          <p>Title: <%= travel['title'] %></p>
+          <p><%= travel['title'] %></p>
         </section>
 
         <div class="control-container">

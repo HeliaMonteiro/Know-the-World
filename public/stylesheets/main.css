@@ -4,14 +4,6 @@ body {
   background-color: #FFF5E1;
 }
 
-.my_trip {
-  background-color: black;
-  padding: 10px;
-  padding: 8px;
-  float: left;
-  width: 33.33%;
-  display: none;
-}
 
 .title-container {
   padding: 10px;
@@ -20,10 +12,9 @@ body {
   align-items: center;
 
 }
-.title-container h1 {
-  color: #DB6400;
-  font-family: 'Splash', cursive;
-  font-size: 5rem;
+.logo {
+  max-width: 100%;
+  display: flex;
 }
 
 .top-button-container-inside {
@@ -55,6 +46,7 @@ button:hover {
   color: white;
 }
 
+
 .signup-button {
   margin: 10px;
 
@@ -84,12 +76,14 @@ button:hover {
 .title-and-image-container {
   display: grid;
   grid-template-columns: 50% 50%;
+  padding: 100px;
 }
 
 .sub-title{
   font-family: 'Indie Flower', cursive;
   color:  #0E918C;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  margin-left: 25px;
 
 }
 .main-text-container {
@@ -105,10 +99,14 @@ button:hover {
 .front-image {
   padding-left: 2px;
   max-width: 100%;
+  margin-top: 50px;
 }
 
 .travel-image {
-  max-width: 50%;
+  max-width: 100%;
+  width:  400px;
+  height: 400px;
+  object-fit: cover;
 }
 
 .travel-list {
@@ -116,14 +114,50 @@ button:hover {
   grid-template-columns: 50% 50%;
   gap: 1.25rem;
   margin-top: 1.5rem;
-  
 }
+
+ 
 
 .travel-item {
   text-align: center;
+  padding: 8px;
+  background-color: white;
+  padding: 10px;
+  float: left;
+  
+
+  
+
 }
 
 .control-container {
   display: flex;
   justify-content: center;
+}
+
+.add-travel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+.form-container input{
+  width: 40%;
+  height: 20px;
+}
+
+.form-container button{
+  margin-top: 10px;
+  width: 20%;
+}
+
+.add-title-title {
+  margin-top: 0;
 }

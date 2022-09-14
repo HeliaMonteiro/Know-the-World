@@ -6,7 +6,7 @@ Travel, explore and share!
 
 💻 [Click here](https://stark-tor-02004.herokuapp.com/) to see my project
 
-[![20220914-112438.jpg](https://i.postimg.cc/zfJW98PL/20220914-112438.jpg)](https://postimg.cc/cvbr3yWZ)
+[![20220914-151706.jpg](https://i.postimg.cc/qqP14MmT/20220914-151706.jpg)](https://postimg.cc/7JN3ND8s)
 
 📄 About
 
