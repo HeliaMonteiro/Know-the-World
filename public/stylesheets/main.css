@@ -26,7 +26,15 @@ body {
   font-size: 5rem;
 }
 
-a:link, a:visited {
+.top-button-container-inside {
+  display: flex;
+}
+
+.header-hello {
+  text-align: center;
+}
+
+button, a:link, a:visited {
   background-color: white;
   color: black;
   border: 3px solid #0E918C;
@@ -42,13 +50,34 @@ a:hover, a:active {
   color: white;
 }
 
+button:hover {
+  background-color: #0E918C;
+  color: white;
+}
+
 .signup-button {
   margin: 10px;
 
   text-decoration: none;
 }
 
+.add-travel-button {
+  margin: 10px;
+}
+
+.logout-button {
+  margin: 10px;
+}
+
 .signin-button {
+  margin: 10px;
+}
+
+.edit-button {
+  margin: 10px;
+}
+
+.delete-button {
   margin: 10px;
 }
 
@@ -76,4 +105,25 @@ a:hover, a:active {
 .front-image {
   padding-left: 2px;
   max-width: 100%;
+}
+
+.travel-image {
+  max-width: 50%;
+}
+
+.travel-list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+  
+}
+
+.travel-item {
+  text-align: center;
+}
+
+.control-container {
+  display: flex;
+  justify-content: center;
 }

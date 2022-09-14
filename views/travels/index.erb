@@ -1,13 +1,14 @@
+<% if !logged_in? %>
 <div>
   <div class="title-container">
     <h1>Know the World</h1>
-    <% if !logged_in? %>
+    
     <div class="top-button-container">
         <a class="signup-button" href="/users/new">Sign up</a>
         <a class="signin-button" href="/sessions/new">Login</a></div>
     
     </div>
-    <% end %> 
+   
   </div>
   <div class="title-and-image-container">
     <div class="main-text-container">
@@ -17,54 +18,59 @@
       Here you can share you travel experiences, get some inspiration and get to know the world even if it is through photos and the experience of other people.
       </p>
     </div>
+ 
 
   <img class="front-image" src="https://images.unsplash.com/photo-1502920514313-52581002a659?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80" alt="Main-page-image">
   </div>
 </div>
+<% end %> 
 
 
 
 <% if logged_in? %>
-  <h2>Hello <%= current_user['first_name'] %></h2>
-  
-  <section class="controls">
-    <form action="/sessions" method="POST">
-      <input type="hidden" name="_method" value="delete">
-      <button>Logout</button>
-    </form>
-  </section>
+  <div class="title-container">
+    <h1>Know the World</h1>
 
-  <div class="logged_btn">
+    <div class="top-button-container-inside">
+      <a class="add-travel-button" href="travels/new">Add travel</a>
+      <form action="/sessions" method="POST">
+        <input type="hidden" name="_method" value="delete">
+        <button class="logout-button">Logout</button>
+      </form>
+
+    </div>
+  </div>
+    <h2 class="header-hello">Hello, <%= current_user['first_name'] %></h2>
+  
+     
+
+  <%# <div class="logged_btn">
     <a href="travels/new">Add travel</a>
     <a href="users/new">Add user</a>
-  </div>
-  <div class="my_trip">
-    <section class="travels">
-      <% travels.each do |travel| %>
+  </div> %>
+  <div class="travel-list">
+    <% travels.each do |travel| %>
+      <div class="travel-item">
+        <header>
+          <h2><%= travel['city'] %></h2>
+          <section class="travel">
+            <p>Country: <%= travel['country'] %></p>
+          </section>
+        </header>
+        <img class="travel-image" src="<%= travel['image_url'] %>" alt="">
         <section class="travel">
-          <header>
-            <h2><%= travel['city'] %></h2>
-            <section class="travel">
-              <p>Country: <%= travel['country'] %></p>
-            </section>
-          </header>
+          <p>Title: <%= travel['title'] %></p>
+        </section>
 
-      <img src="<%= travel['image_url'] %>" alt="">
-      <section class="travel">
-        <p>Title: <%= travel['title'] %></p>
-      </section>
-
-      <section class="controls">
-        <a href="/travels/<%= travel['id'] %>/edit">Edit</a>
-        <form action="/travels/<%= travel['id'] %>" method="POST">
-          <input type="hidden" name="_method" value="delete">
-          <button>Delete</button>
-        </form>
-      </section>
+        <div class="control-container">
+          <a class="edit-button" href="/travels/<%= travel['id'] %>/edit">Edit</a>
+          <form action="/travels/<%= travel['id'] %>" method="POST">
+            <input type="hidden" name="_method" value="delete">
+            <button class="delete-button">Delete</button>
+          </form>
+        </div>
             
-    </section>
+      </div>
+    <% end %>  
   </div>
-       
-  <% end %>  
-</section>
-  <% end %>  
+<% end %>  
