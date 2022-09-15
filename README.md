@@ -15,7 +15,7 @@ Know the World
 
   This page is a space to share travel experience and get inspiration too.
   You can share the city name, country, image, give a title to describle your
-  trip and write a short descruption about your experience.
+  trip and write a short description about your experience.
 
 :woman_technologist: Planning & Problem Solving
 
@@ -27,19 +27,19 @@ Know the World
     
 :nerd_face:  Cool tech  :dart:
 
-  I'm using Sinatra, Ruby, HTML, DB and CSS.
+  I'm using Sinatra, Ruby, HTML, local DB and CSS.
 
 :hammer_and_wrench:  Bugs to fix  :firecracker:
 
   It's possible to add a travel without put any information. Sometimes you have to click 
-  twice in a button to get action. It isn't responsive.
+  twice in a button to get action. Some elements isn't responsive.
 
 :mending_heart: Lessons learnt
 
- Believe in the power of planning and do not limit yorseelf. The gold key is; planing,
- be patience and make it step by step. 
+ Believe in the power of planning and do not limit yourself. The gold key is; planing,
+ be patience and make it step by step.
 
 :star_struck: Future features
 
- Validate the email field, make it responsive, upgrate de button style.
+ Validate the email field, make it totally responsive, upgrate de button.
 
