@@ -13,7 +13,7 @@
 
 ## :bookmark_tabs: About
 
-  This page is a CRUD project to share travel experience and get inspiration too hosted in Heroku.
+  This page is a CRUD project hosted in Heroku, to share travel experience and get inspiration too.
   The user can sign up and sign in to see and share travel experiences. As a logged user it's possible access each travel experience that contains the     city name, country, image, a title to describle the trip and write a short description about the travel experience. The user can also add, edit and       delete travel experiences.
 
 ## :woman_technologist: Planning & Problem Solving
@@ -28,12 +28,17 @@
     
 ## :nerd_face:  Cool tech  :dart:
 
-  Sinatra, Ruby, HTML, local DB and CSS.
+ * Sinatra
+ * Ruby 
+ * HTML 
+ * local DB
+ * CSS
 
 ## Bugs to fix  :hammer_and_wrench: :firecracker:
 
-  It's possible to add a travel without put any information. Sometimes yhe user has to click 
-  twice in a button to get action. Some elements isn't responsive.
+ * The user can add a travel without put any information.
+ * Sometimes the user has to click twice in a button to get action. 
+ * Some elements isn't responsive.
 
 ## :mending_heart: Lessons learnt
 
