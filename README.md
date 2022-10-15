@@ -41,5 +41,5 @@
 
 ## :star_struck: Future features
 
- Validate the email field, make it totally responsive, upgrate de button.
+ Validate the email field and make it totally responsive.
 
