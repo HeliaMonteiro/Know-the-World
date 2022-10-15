@@ -29,7 +29,7 @@
 
   I'm using Sinatra, Ruby, HTML, local DB and CSS.
 
-## :hammer_and_wrench:  Bugs to fix  :firecracker:
+## Bugs to fix  :hammer_and_wrench: :firecracker:
 
   It's possible to add a travel without put any information. Sometimes you have to click 
   twice in a button to get action. Some elements isn't responsive.
