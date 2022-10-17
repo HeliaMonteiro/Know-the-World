@@ -13,8 +13,7 @@
 
 ## :bookmark_tabs: About
 
-  This page is a CRUD project hosted in Heroku, to share travel experience and get inspiration too.
-  The user can sign up and sign in to see and share travel experiences. As a logged user it's possible access each travel experience that contains the     city name, country, image, a title to describle the trip and write a short description about the travel experience. The user can also add, edit and       delete travel experiences.
+  This page is a CRUD project hosted in Heroku, to share travel experiences and get inspiration too. The user can sign up and sign in to see and share     travel experiences. As a logged user it's possible to access each travel experience that contains the city name, country, image, and a title to           describe the trip and write a short description of the travel experience. The user can also add, edit and delete travel experiences.
 
 ## :woman_technologist: Planning & Problem Solving
 
